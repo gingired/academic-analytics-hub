@@ -1,6 +1,22 @@
 # DepEd SHS — Academic Analytics Hub
 
-A portfolio-ready **offline, frontend-only demonstration** of a three-term Senior High School grading and diagnostic analytics interface. Built with React, Vite, Tailwind CSS, Recharts, Papa Parse and Vitest.
+Welcome to the **DepEd SHS Academic Analytics Hub**—a frontend application built to assist senior high school educators in managing class records, calculating weighted grades, and evaluating diagnostic test results.
+
+---
+
+## Project Overview
+
+The DepEd SHS Academic Analytics Hub is a frontend prototype designed to assist senior high school educators in managing class records, calculating weighted grades, and evaluating diagnostic test results. Operating entirely client-side using Vite and React, the system uses 100% synthetic data to demonstrate academic data processing without relying on external databases, APIs, or data persistence.
+
+---
+
+## Core Highlights
+
+* Operates entirely client-side using 60 pre-generated demo learners across five sections and a response dataset, maintaining complete separation from external databases or actual student records.
+* Calculates 11 distinct assessment records per term across four weighted components—Written Works (20%), Performance Tasks (50%), and Summative Tests with Term Exams (30%)—explicitly distinguishing unencoded scores from earned zeros.
+* Computes item difficulty ($p$) and discrimination ($D$) indices across 20 binary test items using a 27% upper and lower group partition for a 50-learner cohort.
+* Links diagnostic items with low difficulty ratings ($p \le 0.40$) to foundational competencies to generate class-level reteaching targets and individual student support flags.
+* Provides interactive metric cards and distribution charts that allow educators to drill down into specific performance categories while preserving active term and section filters.
 
 > **PRIVACY SAFE — SYNTHETIC DATA ONLY. NO RECORDS SENT EXTERNALLY.**
 >
